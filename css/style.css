@@ -1,0 +1,113 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* END RESET */
+
+/* COMMON */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Colonne e Clearfix */
+.col{
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Layout a due colonne */
+.two-col .col{
+    width: 50%;
+}
+
+/* Button generale */
+.btn{
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Pink button */
+.pink-button{
+    background-color: #fe775a;
+}
+/* END COMMON */
+
+/* HEADER */
+/* Elementi nav comuni */
+.menu{
+    list-style-type: none;
+}
+.menu li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.menu li a{
+    color: #32495b;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.menu-right{
+    text-align: right;
+}
+
+.vertical-align{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+/* Nav top */
+.nav-top{
+    background-color: #f4f9fd;
+    padding: 20px 0;
+    border-bottom: 1px solid #32495b;
+}
+
+.nav-top .menu-left{
+    padding-top: 10px;
+}
+
+.menu .border-right{
+    border-right: 1px solid #32495b;
+}
+
+.menu-right .search{
+    color: #01a4bd;
+}
+.menu-right .login-button{
+    color: #fe775a;
+    border: 1px solid #fe775a;
+
+}
+
+/* Nav bottom */
+.nav-bottom{
+    padding: 20px 0;
+}
+
+.nav-bottom img{
+    width: 100px;
+}
+
+.nav-bottom .menu-right{
+    line-height: 40px;
+}
+
+/* END HEADER */
+
+/* TEST */
