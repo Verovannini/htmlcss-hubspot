@@ -9,6 +9,7 @@
 /* COMMON */
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #33475b;
 }
 
 .container{
@@ -34,16 +35,24 @@ body{
 /* Button generale */
 .btn{
     display: inline-block;
-    padding: 10px 10px;
+    padding: 20px 20px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
     display: inline-block;
+    font-size: 13px;
 }
 
 /* Pink button */
 .pink-button{
     background-color: #fe775a;
+}
+
+/* Stile testo da riutilizzare */
+.text{
+    font-size: 13px;
+    padding: 20px 0;
+    line-height: 25px;
 }
 /* END COMMON */
 
@@ -92,7 +101,18 @@ body{
 .menu-right .login-button{
     color: #fe775a;
     border: 1px solid #fe775a;
+    padding: 10px 10px;
+}
+.menu-right .pink-button{
+    color: white;
+    padding: 10px 10px;
+}
 
+.nav-top .world{
+    padding-right: 5px;
+}
+.nav-top .contact-us{
+    padding-left: 20px;
 }
 
 /* Nav bottom */
@@ -106,6 +126,34 @@ body{
 
 .nav-bottom .menu-right{
     line-height: 40px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    height: 600px;
+    background-image: url('../img/jumbotron.png');
+    background-size: cover;
+    position: relative;
+}
+
+.bg-green{
+    background-color: #afebe4;
+    height: 75px;
+    width: 100%;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.teaser{
+    width: 50%;
+    padding-top: 7%;
+}
+
+h1{
+    font-size: 40px;
 }
 
 /* END HEADER */
