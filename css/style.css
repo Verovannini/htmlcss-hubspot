@@ -51,8 +51,15 @@ body{
 /* Stile testo da riutilizzare */
 .text{
     font-size: 13px;
-    padding: 20px 0;
     line-height: 25px;
+}
+.small-text{
+    font-size: 10px;
+}
+
+/* Padding 20px 0 */
+.padd-20{
+    padding: 20px 0;
 }
 /* END COMMON */
 
@@ -83,16 +90,11 @@ body{
 /* Nav top */
 .nav-top{
     background-color: #f4f9fd;
-    padding: 20px 0;
     border-bottom: 1px solid #32495b;
 }
 
 .nav-top .menu-left{
-    padding-top: 10px;
-}
-
-.menu .border-right{
-    border-right: 1px solid #32495b;
+    margin-top: 10px;
 }
 
 .menu-right .search{
@@ -113,19 +115,16 @@ body{
 }
 .nav-top .contact-us{
     padding-left: 20px;
+    border-left: 1px solid #32495b;
 }
 
 /* Nav bottom */
-.nav-bottom{
-    padding: 20px 0;
-}
-
 .nav-bottom img{
     width: 100px;
 }
 
 .nav-bottom .menu-right{
-    line-height: 40px;
+    line-height: 30px;
 }
 
 /* Jumbotron */
@@ -155,7 +154,6 @@ body{
 h1{
     font-size: 40px;
 }
-
 /* END HEADER */
 
 /* TEST */
