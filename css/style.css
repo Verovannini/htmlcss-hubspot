@@ -17,6 +17,11 @@ body{
     margin: 0 auto;
 }
 
+.container-60{
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* Colonne e Clearfix */
 .col{
     float: left;
@@ -55,6 +60,9 @@ body{
 }
 .small-text{
     font-size: 10px;
+}
+.text-centered{
+    text-align: center;
 }
 
 /* Padding 20px 0 */
@@ -155,5 +163,39 @@ h1{
     font-size: 40px;
 }
 /* END HEADER */
+
+/* MAIN */
+/* Elementi in comune nel main */
+section{
+    padding: 40px 0;
+}
+
+main h2{
+    font-size: 30px;
+}
+
+/* Section Benefits */
+#benefits{
+    background-color: #f4f9fd;
+}
+
+#benefits img{
+    display: block;
+    margin: auto;
+}
+
+#benefits .container-60 img{
+    height: 200px;
+}
+
+#benefits .box{
+    background-color: #fff;
+    border-radius: 5px;
+
+    /* test */
+    height: 100px;
+}
+/* END MAIN */
+
 
 /* TEST */
