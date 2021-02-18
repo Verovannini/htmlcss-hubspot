@@ -33,8 +33,11 @@ body{
 }
 
 /* Layout a due colonne */
-.two-col .col{
-    width: 50%;
+.two-col .col:first-child{
+    width: 30%;
+}
+.two-col .col:last-child{
+    width: 70%;
 }
 
 /* Button generale */
@@ -184,16 +187,51 @@ main h2{
     margin: auto;
 }
 
+/* Title container */
 #benefits .container-60 img{
     height: 200px;
 }
 
+/* Box container */
 #benefits .box{
     background-color: #fff;
     border-radius: 5px;
+    box-shadow: 0 0 5px lightgray;
+    padding: 70px;
+}
 
-    /* test */
+#benefits .featured{
+    margin: 50px 0;
+}
+
+#benefits .box-container img{
     height: 100px;
+}
+
+#benefits h3{
+    font-size: 25px;
+}
+#benefits .featured h4{
+    display: inline-block;
+}
+
+#benefits .checklist{
+    list-style-type: none;
+}
+#benefits .featured .checklist li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#benefits .box .line{
+    height: 2px;
+    width: 350px;
+    background-color: #8a9498;
+}
+#benefits .box.featured .line{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
 }
 /* END MAIN */
 
