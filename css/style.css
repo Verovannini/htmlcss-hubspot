@@ -48,6 +48,11 @@ body{
     margin: 0 5%;
 }
 
+/* Layout a quattro colonne */
+.four-col .col{
+    width: 25%;
+}
+
 /* Button generale */
 .btn{
     display: inline-block;
@@ -77,6 +82,9 @@ body{
 }
 
 /* Padding riutilizzabili */
+.padd-10{
+    padding: 10px 0;
+}
 .padd-20{
     padding: 20px 0;
 }
@@ -128,11 +136,11 @@ body{
 .menu-right .login-button{
     color: #fe775a;
     border: 1px solid #fe775a;
-    padding: 10px 10px;
+    padding: 10px;
 }
 .menu-right .pink-button{
     color: white;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .nav-top .world{
@@ -189,6 +197,7 @@ section{
 
 main h2{
     font-size: 30px;
+    font-weight: 700;
 }
 
 /* Section Benefits */
@@ -199,6 +208,7 @@ main h2{
 /* Title container */
 #benefits .container-60 img{
     height: 200px;
+
 }
 
 /* Box container */
@@ -251,8 +261,26 @@ main h2{
     margin-left: 50px;
 }
 
+/* Section Results */
+#results{
+    background-color: #00b4b0;
+    color: #fff;
+}
 
+#results .number{
+    font-size: 40px;
+    font-weight: 700;
+}
+#results .plus{
+    font-size: 35px;
+}
 
+#results .col:not(.col:last-child) {
+    border-right: 1px solid #fff;
+}
+#results .col .col-top{
+    border-bottom: 1px solid #fff;
+}
 /* END MAIN */
 
 
