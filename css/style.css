@@ -192,7 +192,7 @@ h1{
 /* MAIN */
 /* Elementi in comune nel main */
 section{
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 main h2{
@@ -267,7 +267,7 @@ main h2{
     color: #fff;
 }
 
-#results .number{
+.number{
     font-size: 40px;
     font-weight: 700;
 }
@@ -275,11 +275,32 @@ main h2{
     font-size: 35px;
 }
 
-#results .col:not(.col:last-child) {
+#results .col:not(:last-child) {
     border-right: 1px solid #fff;
 }
 #results .col .col-top{
     border-bottom: 1px solid #fff;
+}
+
+/* Section partners */
+#partners .big-text{
+    line-height: 30px;
+}
+#partners .big-text > span{
+    font-weight: 700;
+}
+
+#partners .logo-list{
+    list-style-type: none;
+    padding-left: 40px;
+}
+#partners .logo-list li{
+    display: inline-block;
+    vertical-align: middle;
+}
+#partners .logo-list img{
+    width: 100px;
+    margin: 30px 5px 0 0;
 }
 /* END MAIN */
 
