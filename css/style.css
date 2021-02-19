@@ -95,22 +95,23 @@ body{
 }
 
 /* Stile liste */
-
+.list{
+    list-style-type: none;
+    font-size: 13px;
+}
+.list.inline-list li{
+    display: inline-block;
+}
 /* END COMMON */
 
 /* HEADER */
 /* Elementi nav comuni */
-.menu{
-    list-style-type: none;
-}
-.menu li{
-    display: inline-block;
+header .list li{
     padding-right: 20px;
 }
-.menu li a{
+header .list li a{
     color: #32495b;
     text-decoration: none;
-    font-size: 13px;
 }
 
 .menu-right{
@@ -238,15 +239,13 @@ main h2{
     display: inline-block;
 }
 
-#benefits .checklist{
-    list-style-type: none;
+#benefits .three-col .list{
     text-align: left;
 }
-#benefits .featured .checklist li{
-    display: inline-block;
+#benefits .featured .list li{
     margin-right: 25px;
 }
-#benefits .checklist .check{
+#benefits .list .check{
     color: #fe775a;
     padding-right: 10px;
 }
@@ -292,15 +291,13 @@ main h2{
     font-weight: 700;
 }
 
-#partners .logo-list{
-    list-style-type: none;
+#partners .list{
     padding-left: 40px;
 }
-#partners .logo-list li{
-    display: inline-block;
+#partners .list.inline-list li{
     vertical-align: middle;
 }
-#partners .logo-list img{
+#partners .list img{
     width: 100px;
     margin: 30px 5px 0 0;
 }
@@ -332,16 +329,18 @@ footer h5{
     font-weight: 500;
 }
 
-footer .footer-list{
-    list-style-type: none;
-}
-
 footer .btn{
     background-color: #dadee0;
     color: #32495b;
     padding: 5px 8px;
     font-size: 11px;
     border: 1px solid #fff;
+}
+
+footer .list.inline-list li a{
+    color: #bac5d1;
+    font-size: 18px;
+    padding-right: 15px;
 }
 /* END FOOTER */
 
