@@ -60,7 +60,6 @@ body{
     border-radius: 5px;
     color: white;
     text-decoration: none;
-    display: inline-block;
     font-size: 13px;
 }
 
@@ -94,6 +93,9 @@ body{
 .padd-bott-40{
     padding-bottom: 40px;
 }
+
+/* Stile liste */
+
 /* END COMMON */
 
 /* HEADER */
@@ -192,7 +194,7 @@ h1{
 /* MAIN */
 /* Elementi in comune nel main */
 section{
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 main h2{
@@ -257,7 +259,7 @@ main h2{
 #benefits .box.featured .line{
     display: inline-block;
     vertical-align: middle;
-    width: 350px;
+    width: 55%;
     margin-left: 50px;
 }
 
@@ -317,4 +319,29 @@ main h2{
 /* END MAIN */
 
 
-/* TEST */
+/* FOOTER */
+footer{
+   background-color: #32495b;
+   color: #bac5d1; 
+}
+
+footer h5{
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+footer .footer-list{
+    list-style-type: none;
+}
+
+footer .btn{
+    background-color: #dadee0;
+    color: #32495b;
+    padding: 5px 8px;
+    font-size: 11px;
+    border: 1px solid #fff;
+}
+/* END FOOTER */
+
