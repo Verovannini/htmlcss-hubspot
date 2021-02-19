@@ -79,8 +79,14 @@ body{
 .text-centered{
     text-align: center;
 }
+.text-right{
+    text-align: right;
+}
+.line-30{
+    line-height: 30px;
+}
 
-/* Padding riutilizzabili */
+/* Padding, margini riutilizzabili */
 .padd-10{
     padding: 10px 0;
 }
@@ -92,6 +98,9 @@ body{
 }
 .padd-bott-40{
     padding-bottom: 40px;
+}
+.margin-top-40{
+    margin-top: 40px;
 }
 
 /* Stile liste */
@@ -114,64 +123,56 @@ header .list li a{
     text-decoration: none;
 }
 
-.menu-right{
-    text-align: right;
-}
-
 .vertical-align{
     vertical-align: middle;
     padding-left: 5px;
 }
 
 /* Nav top */
-.nav-top{
+header .nav-top{
     background-color: #f4f9fd;
     border-bottom: 1px solid #32495b;
 }
 
-.nav-top .menu-left{
+header .nav-top .menu-left{
     margin-top: 10px;
 }
 
-.menu-right .search{
+header .menu-right .search{
     color: #01a4bd;
 }
-.menu-right .login-button{
+header .menu-right .login-button{
     color: #fe775a;
     border: 1px solid #fe775a;
     padding: 10px;
 }
-.menu-right .pink-button{
+header .menu-right .pink-button{
     color: white;
     padding: 10px;
 }
 
-.nav-top .world{
+header .nav-top .world{
     padding-right: 5px;
 }
-.nav-top .contact-us{
+header .nav-top .contact-us{
     padding-left: 20px;
     border-left: 1px solid #32495b;
 }
 
 /* Nav bottom */
-.nav-bottom img{
+header .nav-bottom img{
     width: 100px;
 }
 
-.nav-bottom .menu-right{
-    line-height: 30px;
-}
-
 /* Jumbotron */
-.jumbotron{
+header .jumbotron{
     height: 600px;
     background-image: url('../img/jumbotron.png');
     background-size: cover;
     position: relative;
 }
 
-.bg-green{
+header .bg-green{
     background-color: #afebe4;
     height: 75px;
     width: 100%;
@@ -182,12 +183,12 @@ header .list li a{
     right: 0;
 }
 
-.teaser{
+header .teaser{
     width: 50%;
     padding-top: 7%;
 }
 
-h1{
+header h1{
     font-size: 40px;
 }
 /* END HEADER */
@@ -284,9 +285,6 @@ main h2{
 }
 
 /* Section partners */
-#partners .big-text{
-    line-height: 30px;
-}
 #partners .big-text > span{
     font-weight: 700;
 }
@@ -307,11 +305,8 @@ main h2{
     width: 50%;
 }
 
-#sign-up .col-right img{
+#sign-up .text-right img{
     width: 50%;
-}
-#sign-up .col-right{
-    text-align: right;
 }
 /* END MAIN */
 
@@ -329,6 +324,12 @@ footer h5{
     font-weight: 500;
 }
 
+footer .list li a:not(.btn){
+    color: #bac5d1;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
 footer .btn{
     background-color: #dadee0;
     color: #32495b;
@@ -337,10 +338,17 @@ footer .btn{
     border: 1px solid #fff;
 }
 
-footer .list.inline-list li a{
-    color: #bac5d1;
-    font-size: 18px;
-    padding-right: 15px;
+footer .text{
+    line-height: 30px;
+}
+
+footer .languages{
+    border-bottom: 1px solid #bac5d1;
+    padding-bottom: 20px;
+}
+
+footer .copyright{
+    color: #fff;
 }
 /* END FOOTER */
 
