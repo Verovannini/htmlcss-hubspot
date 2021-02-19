@@ -171,9 +171,21 @@ header .nav-top .contact-us{
     border-left: 1px solid #32495b;
 }
 
+header .nav-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
 /* Nav bottom */
 header .nav-bottom img{
     width: 100px;
+}
+
+header .nav-bottom{
+    margin-top: 79px;
 }
 
 /* Jumbotron */
@@ -277,7 +289,8 @@ main h2{
 
 /* Section Results */
 #results{
-    background-color: #00b4b0;
+    background: rgb(1,167,186);
+    background: linear-gradient(90deg, rgba(1,167,186,1) 0%, rgba(0,184,171,1) 100%);
     color: #fff;
 }
 
